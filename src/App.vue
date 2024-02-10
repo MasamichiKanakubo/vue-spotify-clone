@@ -44,7 +44,7 @@ let openMenu = ref(false)
             width="27"
             src="https://i.scdn.co/image/ab67757000003b826d53ff1745c3d489e70d4f9b"
           >
-          <div class="text-white text-[14px] ml-1.5 font-semibold">Masamichi Kanakubo</div>
+          <div class="text-white text-[14px] ml-1.5 font-semibold">Masamichi Dev</div>
           <ChevronDown v-if="!openMenu" @click="openMenu = true" fillColor="#FFFFFF" :size="25" />
           <ChevronUp v-else @click="openMenu = false" fillColor="#FFFFFF" :size="25" />
         </div>
